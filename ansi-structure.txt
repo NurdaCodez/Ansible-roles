@@ -1,0 +1,26 @@
+.
+├── ansible.cfg
+├── group_vars
+│   ├── all.yml
+│   └── ...
+├── host_vars
+│   ├── host1.yml
+│   └── ...
+├── hosts
+├── library
+├── roles
+│   ├── role1
+│   │   ├── tasks
+│   │   ├── handlers
+│   │   ├── templates
+│   │   ├── files
+│   │   ├── vars
+│   │   ├── defaults
+│   │   ├── meta
+│   │   └── README.md
+│   ├── role2
+│   └── ...
+├── site.yml
+└── vars
+    ├── main.yml
+    └── ...
